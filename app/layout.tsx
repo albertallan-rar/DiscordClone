@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-        <body className={cn(font.className, "bg-gray-200 text-black ,  dark:bg-[#313338] dark:text-red-500")}>
+        <body className={cn(font.className, "bg-gray-200 text-black ,  dark:bg-[#313338] dark:text-white")}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem storageKey="discord-themes">
             {children}
           </ThemeProvider>
