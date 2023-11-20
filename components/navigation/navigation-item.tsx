@@ -17,7 +17,6 @@ export const NavigationItem: React.FC<NavigationItemProps> = ({ id, imageUrl, na
 
   const handleEnterServer = () => {
     router.push(`/servers/${id}`);
-    console.log("ENTRANDO NO SERVIDOR");
   };
 
   return (
