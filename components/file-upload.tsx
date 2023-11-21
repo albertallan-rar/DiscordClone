@@ -20,7 +20,7 @@ export const FileUpload: React.FC<FileUploadProps> = ({ endpoint, onChange, valu
         <Image src={value} fill alt="Upload" className="rounded-full" />
         <button
           onClick={() => onChange("")}
-          className="bg-orange-400 absolute text-white p-1 rounded-full right-0 shadow-sm"
+          className="bg-rose-500 text-white p-1 rounded-full absolute top-0 right-0 shadow-sm"
           type="button"
         >
           <X className="h-4 w-4" />
